@@ -26,4 +26,4 @@ function bmi(weight, height) {
     * Mechanical engineer
     
 ##   Languages 
-* English (B2-level)
+* English (B1-level)
