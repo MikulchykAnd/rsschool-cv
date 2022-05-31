@@ -10,7 +10,7 @@
 * CSS
 * Git/Github
 * JavaScript (in process)
-* Autodesc
+
 
 ## Code example
 ```
