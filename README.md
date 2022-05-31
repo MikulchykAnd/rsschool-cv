@@ -1,1 +1,1 @@
-https://MikulchykAnd.github.io/rsschool-cv/cvgi
+https://MikulchykAnd.github.io/rsschool-cv/cv
