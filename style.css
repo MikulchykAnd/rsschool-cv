@@ -24,16 +24,25 @@ body{
 }
 *{box-sizing:  border-box;
 }
-.header{
-    border: 5px solid rgb(225, 65, 188);
+header{
+   border: 3px solid rgb(224, 255, 255) ;
     margin-left: 5px;
     margin-right: 5px;
+    background-color: rgb(224, 255, 255);
    
 }
 
-.footer{
-    border: 15px solid rgb(65, 225, 68);
-    margin-top: 300px;
+footer{
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    font-size: 14px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: rgb(217, 225, 217);
+    text-indent: 30vh;  
+    
 }
 .container{
     max-width: 1440px;
@@ -60,7 +69,7 @@ body{
     .profile{
         display: flex;
         align-items: center;
-        background-color: rgb(166, 174, 166);
+        background-color: rgb(217, 225, 217);
         padding-left: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -73,30 +82,56 @@ body{
     }
     
     .contacts,
-    .courses{
+    .courses,
+    .skills,
+    .education{
         width: 750px;
         margin-left: 5px;
       padding-top: 5px;
         float: left;
     }
     .personality,
-    .code{
+    .code,
+    .projects,
+    .english{
         margin-right: 5px;
         padding-top: 5px;
        margin-left: 755px;
        margin-top: 0px;
        height: 218px;
+       
     }
-    .main{
-        background-color: aqua;
+    main{
+        background-color: rgb(224, 255, 255);
         margin-left: 5px;
         margin-right: 5px;
-        height: 500px;
+        height: 1050px;
     }
     .section-title-l{
         padding-left: 30px;
+        background-color: gold;
+        margin-right: 500px;
+        
+        
     }
-    .contact-item{
+    .section-title-r{
+        padding-left: 40px;
+        background-color: gold;
+        margin-right: 500px;
+    }
+    .contact-item,
+    .courses-item,
+    .skills-item,
+    .projects-item,
+    .english-item{
         list-style-type: none;
         margin-bottom: 1em;
     }
+    .gth{
+        text-decoration: none;  
+    }
+    .education-item,
+    .education-list{
+        padding-left: 20px;
+    }
+    
