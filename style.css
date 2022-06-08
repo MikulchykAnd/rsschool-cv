@@ -1,0 +1,137 @@
+@font-face {
+    font-family: NotoSans;
+    src: url("assets/fonts/NotoSans-SemiBold.ttf");
+}
+@font-face{
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Regular.ttf");
+}
+html{
+    scroll-behavior: smooth;
+}
+.round{
+    border-radius: 80px;
+}
+body{
+    font-family: NotoSans;
+    font-size: 16px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+*{box-sizing:  border-box;
+}
+header{
+   border: 3px solid rgb(224, 255, 255) ;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(224, 255, 255);
+   
+}
+
+footer{
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    font-size: 14px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: rgb(217, 225, 217);
+    text-indent: 30vh;  
+    
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;  
+}
+
+    .nav-list{
+        list-style: none;
+    }
+    .nav-list{
+        padding: 0 20px;
+        line-height: 30px;  
+    }
+    .nav-link{
+        text-decoration: none;
+        transition: .3s;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        background-color: rgb(217, 225, 217);
+        padding-left: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+       
+
+    }
+    .developer{
+        padding-left: 200px;
+        text-align: center;
+    }
+    
+    .contacts,
+    .courses,
+    .skills,
+    .education{
+        width: 750px;
+        margin-left: 5px;
+      padding-top: 5px;
+        float: left;
+    }
+    .personality,
+    .code,
+    .projects,
+    .english{
+        margin-right: 5px;
+        padding-top: 5px;
+       margin-left: 755px;
+       margin-top: 0px;
+       height: 218px;
+       
+    }
+    main{
+        background-color: rgb(224, 255, 255);
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 1050px;
+    }
+    .section-title-l{
+        padding-left: 30px;
+        background-color: gold;
+        margin-right: 500px;
+        
+        
+    }
+    .section-title-r{
+        padding-left: 40px;
+        background-color: gold;
+        margin-right: 500px;
+    }
+    .contact-item,
+    .courses-item,
+    .skills-item,
+    .projects-item,
+    .english-item{
+        list-style-type: none;
+        margin-bottom: 1em;
+    }
+    .gth{
+        text-decoration: none;  
+    }
+    .education-item,
+    .education-list{
+        padding-left: 20px;
+    }
+    
