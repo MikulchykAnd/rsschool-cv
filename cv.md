@@ -17,11 +17,15 @@
 
 ## Code example
 ```
-function bmi(weight, height) {
-
-  const bmi = weight/(height*height);
-  
-  return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
+function disemvowel(str) {
+  let strArr = str.split('');
+  for (let i = 0; i < str.length;i++){
+  let char = str[i].toLowerCase();
+  if(char =='a' || char == 'e' || char =='i' || char =='o' || char =='u'){
+    strArr[i] = '';
+  }
+    }
+  return strArr.join('');
 }
 ```
 ## Education
